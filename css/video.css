@@ -1,0 +1,308 @@
+*{margin: 0;padding: 0;}
+html,body{width: 100%;height: 100%;margin: 0;padding: 0}
+#dowebok{width: 100%;height: 100%}
+.clear{
+    clear: both;
+}
+.f-l{float: left}
+.f-r{float: right}
+.biankuang{
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    z-index: 99;
+    border-radius:10px;
+}
+.biankuang_1{
+    height: 3px;
+    top: -6px;
+    left:0px;
+    border-left: 3px solid #EB5858;
+}
+.biankuang_2 {
+    width: 0px;
+    bottom:-3px;
+    left: 0px;
+    border-top: 3px solid #EB5858;
+}
+.biankuang_3{
+    height: 0px;
+    bottom:0px;
+    right:0px;
+    border-right: 3px solid #EB5858;
+}
+.biankuang_4{
+    width:0px;
+    top:-3px;
+    right:0px;
+    border-bottom: 3px solid #EB5858;
+}
+.section{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.section video{
+    /*min-height: 1080px;*/
+    /*min-width: 1920px;*/
+    min-height: 100%;
+    min-width: 100%;
+}
+.video{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}
+.section1 .text{
+    position: relative;
+    background: rgba(26,40,131,0.7);
+    width: 100%;
+    height: 100%;
+}
+.section1 .text img{
+    width: 1047px;
+    height: 544px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -272px;
+    margin-left: -523.5px;
+}
+/*左边*/
+.section-left{
+    position: relative;
+}
+.left{
+    position: absolute;
+    left: 96px;
+    bottom: 88px;
+}
+.section-left .text{
+    width: 21.55vw;
+    margin-bottom: 24.26vh;
+}
+.section-left .text img{
+    width: 21.55vw;
+}
+.section-left .picture{
+    width: 100%;
+    height: 100%;
+}
+.section-left .material{
+    width: 10.15vw;
+    margin-bottom: 1.87vh;
+}
+.section-left .material img{
+    width: 100%;
+}
+.section-left .picture .spbq{
+    float: left;
+    width: 12vw;
+    margin-right: 1vw;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.section-left .picture .spbq .view{
+    display: block;
+    width: 12vw;
+    height: 12vh;
+}
+.section-left .picture .spbq img{
+    width: 100%;
+    height: 100%;
+}
+.section-left .picture .spbq:nth-child(6){
+    width: 12vh;
+    height: 12vh;
+    background: #35343D;
+    text-align: center;
+}
+.section-left .picture .spbq .more{
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 2.8444vh;
+    line-height: 2.222vh;
+}
+.section-left .picture .spbq .more-button{
+    display: block;
+    width: 58px;
+    height: 36px;
+    /*margin: 10px auto 0;*/
+    /*width: 2.9vw;*/
+    /*height: 3.2vh;*/
+    margin: 0.89vw auto 0;
+}
+/*第三屏*/
+.section-right{
+    position: relative;
+}
+.right{
+    position: absolute;
+    right: 96px;
+    bottom: 88px;
+}
+.section-right .text{
+    width: 21.55vw;
+    margin-bottom: 24.26vh;
+    float: right;
+}
+.section-right .text img{
+    width: 21.55vw;
+}
+.section-right .picture{
+    width: 100%;
+    height: 100%;
+}
+.section-right .material{
+    width: 10.15vw;
+    margin-bottom: 1.87vh;
+    float: right;
+}
+.section-right .material img{
+    width: 100%;
+}
+.section-right .picture .spbq{
+    float: left;
+    width: 12vw;
+    margin-left: 1vw;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+.section-right .picture .spbq .view{
+    display: block;
+    width: 12vw;
+    height: 12vh;
+}
+.section-right .picture .spbq img{
+    width: 100%;
+    height: 100%;
+}
+.section-right .picture .spbq:nth-child(6){
+    width: 12vh;
+    height: 12vh;
+    background: #35343D;
+    text-align: center;
+}
+.section-right .picture .spbq .more{
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 2.8444vh;
+    line-height: 2.222vh;
+}
+.section-right .picture .spbq .more-button{
+    display: block;
+    width: 58px;
+    height: 36px;
+    /*margin: 10px auto 0;*/
+    /*width: 2.9vw;*/
+    /*height: 3.2vh;*/
+    margin: 0.89vw auto 0;
+}
+
+/*查看更多样式*/
+button,span{
+    padding: 0;
+}
+/* Common button styles */
+.button {
+    width: 58px;
+    height: 36px;
+    display: block;
+    position: relative;
+    border: none;
+    z-index: 1;
+    border-radius: 100px;
+    background-color: #EA4335;
+    box-sizing: border-box;
+}
+.button:focus {
+    outline: none;
+}
+.button > span {
+    vertical-align: middle;
+    display: block;
+    width: 22px;
+    height: 15px;
+    background: url("../pic/箭头.svg") no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -7.5px 0 0 -11px;
+}
+.button:hover > span{
+    background: url("../pic/箭头红.svg") no-repeat;
+}
+/* Antiman */
+.button--antiman {
+    background: none;
+    border: none;
+}
+.button--antiman::before,
+.button--antiman::after {
+    content: '';
+    z-index: -1;
+    border-radius: inherit;
+    pointer-events: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+    box-sizing: border-box;
+}
+.button--antiman::before {
+    border: 2px solid #37474f;
+    opacity: 0;
+    -webkit-transform: scale3d(1.2, 1.2, 1);
+    transform: scale3d(1.2, 1.2, 1);
+}
+.button--antiman.button--border-thick::before {
+    border-width: 3px;
+}
+.button--antiman.button--inverted-alt::before {
+    border-color: #EA4335;
+}
+.button--antiman::after {
+    background: #fff;
+}
+.button--antiman.button--inverted-alt::after {
+    background: #EA4335;
+}
+.button--antiman.button--inverted-alt:hover {
+    color: #EA4335;
+}
+.button--antiman:hover::before {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+.button--antiman:hover::after {
+    opacity: 0;
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+}
+@media only screen and (max-width: 1440px) {
+    .section1 .text img{
+        width: 600px;
+        margin-left: -300px;
+    }
+    .section .picture .spbq .more{
+        font-size: 14px; ;
+    }
+    .section .picture .spbq .more-button{
+        width: 41.76px;
+        height: 25.92px;
+    }
+}
